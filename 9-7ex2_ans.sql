@@ -1,4 +1,4 @@
 select *
 from Stu_grade
-where MyDBMS = (select max(MyDBMS)
+where db = (select max(db)
   from Stu_grade);
