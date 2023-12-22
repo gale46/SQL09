@@ -1,4 +1,4 @@
 select *
 from Stu_grade
-where MyDBMS > (select avg(MyDBMS)
+where db > (select avg(db)
   from Stu_grade);
